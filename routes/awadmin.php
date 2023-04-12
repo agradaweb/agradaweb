@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +22,4 @@ Route::get('/blank-page', function () {
     return view('backend.utility.blank-page');
 })->name('blankpage');
 
-Route::get('/employees', function () {
-    return view('backend.employees.index');
-})->name('employees');
-
+Route::resource('/blog', PostController::class)->names('blog');

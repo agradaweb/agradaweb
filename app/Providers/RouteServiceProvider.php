@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/dashboard';
+    public const HOME = '/admin/dashboard';
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.
@@ -36,6 +36,7 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware(['web', 'auth:sanctum',config('jetstream.auth_session'),'verified'])
                 ->as('backend.')
+                ->prefix('admin')
                 ->group(base_path('routes/awadmin.php'));
         });
     }
