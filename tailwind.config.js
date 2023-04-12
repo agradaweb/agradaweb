@@ -14,7 +14,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: [
-                    "Inter var, sans-serif",
+                    "Nunito Sans, sans-serif",
                 ],
             },
 
