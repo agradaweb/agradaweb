@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\OptionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +23,6 @@ Route::get('/blank-page', function () {
     return view('backend.utility.blank-page');
 })->name('blankpage');
 
-Route::resource('/blog', PostController::class)->names('blog');
+Route::resource('blog', PostController::class)->names('blog');
+
+Route::resource('options', OptionController::class);
