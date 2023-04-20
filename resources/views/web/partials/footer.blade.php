@@ -1,4 +1,4 @@
-<footer class="bg-black text-white rounded-tl-[100px] p-10 sm:pt-16 sm:pb-5 sm:px-20">
+<footer class="bg-black text-white rounded-tl-[100px] pl-10 sm:pl-40 p-10 sm:pt-16 sm:pb-5 pr-0 sm:pr-20">
     <div class="flex-grow xl:flex xl:justify-between">
         <div class="w-full xl:w-1/2">
             <p class="text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-white text-left sm:text-center xl:text-left">
