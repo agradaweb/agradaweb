@@ -1,116 +1,23 @@
 <x-guest-layout>
-    <div class="relative bg-white">
-        <div class="mx-auto max-w-7xl">
-          <div class="relative z-10 lg:w-full lg:max-w-2xl">
-            <svg class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-              <polygon points="0,0 90,0 50,100 0,100" />
-            </svg>
-      
-            <div class="relative px-6 pt-6 lg:pl-8 lg:pr-0">
-              <nav class="flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-                <a href="#" class="-m-1.5 p-1.5">
-                  <span class="sr-only">Your Company</span>
-                  <img alt="Your Company" class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600">
-                </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden">
-                  <span class="sr-only">Open main menu</span>
-                  <!-- Heroicon name: outline/bars-3 -->
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-                </button>
-                <div class="hidden lg:ml-12 lg:block lg:space-x-14">
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Product</a>
-      
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
-      
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-      
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
-      
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in</a>
-                </div>
-              </nav>
-              <!-- Mobile menu, show/hide based on menu open state. -->
-              <div role="dialog" aria-modal="true">
-                <div class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
-                  <div class="flex flex-row-reverse items-center justify-between">
-                    <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                      <span class="sr-only">Close menu</span>
-                      <!-- Heroicon name: outline/x-mark -->
-                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                    <a href="#" class="-m-1.5 p-1.5">
-                      <span class="sr-only">Your Company</span>
-                      <img class="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-                    </a>
-                  </div>
-                  <div class="mt-6 space-y-2">
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Product</a>
-      
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Features</a>
-      
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Marketplace</a>
-      
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
-      
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Log in</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <div class="relative py-32 px-6 sm:py-40 lg:py-56 lg:px-8 lg:pr-0">
-              <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                <div class="hidden sm:mb-10 sm:flex">
-                  <div class="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Diseño web enfocado a resultados · Destaca entre tu competencia
-                  </div>
-                </div>
-                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Refleja tu marca con un diseño web a medida</h1>
-                <p class="mt-6 text-lg leading-8 text-gray-600">En nuestra <strong>agencia de diseño web</strong>, nos enorgullece crear sitios web a medida que se adaptan a tus necesidades y reflejan la esencia de tu marca. Desde la planificación hasta la implementación, trabajamos contigo para asegurarnos de que tu sitio web sea exclusivo y te diferencie de la competencia.</p>
-                <div class="mt-10 flex items-center gap-x-6">
-                  <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">¿Hablamos?</a>
-                  <a href="#" class="text-base font-semibold leading-7 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="">
-        </div>
-      </div>
 
-      <div class="bg-white">
-        <div class="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
-          <p class="text-center text-lg font-semibold text-gray-600">Trusted by over 5 very average small businesses</p>
-          <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation">
-            </div>
-            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
-            </div>
-            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
-            </div>
-            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel">
-            </div>
-            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
-            </div>
-            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic">
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
+    <style>
+
+        .bg-transition {
+                transition: background-color 0.3s ease-in-out;
+            }
+
+        .bg-hover-color {
+            background-color: #c8c8c8; /* Puedes cambiar este color al que desees */
+        }
+        .scale-transition {
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+
+    <div class="bg-gray-800 text-white">
+        sdfsdf
+    </div>
+
     <div class="relative isolate bg-white">
         <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
           <defs>
@@ -164,7 +71,113 @@
           </div>
         </div>
       </div>
-      
+
+      <div class="container px-6 sm:max-w-7xl grid lg:grid-cols-2 grid-cols-1 lg:gap-10 xl:pb-36 pb-14">
+        <div>
+            <div class="mb-10">
+                <p class="xl:text-6xl lg:text-4xl text-2xl font-bold pb-5">SERVICE</p>
+                <p class="text-sm font-semibold">デジタル領域の課題に対して、システム開発、マーケティング、データ解析など一気通貫のデ
+                     ジタルコンサルティングサービスと、デジタルプロフェッショナルとプロジェクトをマッチングす
+                    プラットフォームを展開しています。
+                </p>
+            </div>
+
+            <div class="mb-10">
+                <a class="" href="#">
+                    <div class="sm:flex shadow-xl rounded-xl gap-7 sm:pr-5 bg-transition" x-data="{ hover: false }" @mouseover="hover = true" @mouseout="hover = false"  :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                        <div>
+                            <img :class="{'w-full h-full rounded-xl scale-transition transform': true, 'scale-95': hover}" src="frontend/images/card.webp" alt="">
+                        </div>
+                        <div class="py-5 lg:-skew-x-12 lg:-translate-x-16 bg-transition" :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                            <div class="lg:translate-x-10 lg:skew-x-12 px-5 lg:px-0">
+                                <p class="xl:text-2xl text-lg font-bold xl:pb-10 pb-5">WEB <br> CREATIVE</p>
+                                <p class="text-sm font-light text-gray-400 pb-5">
+                                    Webメディアサイト戦略、デザイン、CMS設計、運用体制の構築、アクセス解析、データ分析、インフラ設計など、メディアサイトの制作に必要なサービスを総合的にご支援します。
+                                </p>
+                                <div class="flex justify-end">
+                                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mb-10">
+                <a class="" href="#">
+                    <div class="sm:flex shadow-xl rounded-xl sm:gap-7 sm:pr-5 bg-transition" x-data="{ hover: false }" @mouseover="hover = true" @mouseout="hover = false"  :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                        <div>
+                            <img :class="{'w-full h-full rounded-xl scale-transition transform': true, 'scale-95': hover}" src="frontend/images/card.webp" alt="">
+                        </div>
+                        <div class="py-5 lg:-skew-x-12 lg:-translate-x-16 bg-transition" :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                            <div class="lg:translate-x-10 lg:skew-x-12 px-5 lg:px-0">
+                                <p class="xl:text-2xl text-lg font-bold xl:pb-10 pb-5">WEB <br> CREATIVE</p>
+                                <p class="text-sm font-light text-gray-400 pb-5">
+                                    Webメディアサイト戦略、デザイン、CMS設計、運用体制の構築、アクセス解析、データ分析、インフラ設計など、メディアサイトの制作に必要なサービスを総合的にご支援します。
+                                </p>
+                                <div class="flex justify-end">
+                                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div class="mb-10">
+                <a class="" href="#">
+                    <div class="sm:flex shadow-xl rounded-xl gap-7 sm:pr-5 bg-transition" x-data="{ hover: false }" @mouseover="hover = true" @mouseout="hover = false"  :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                        <div>
+                            <img :class="{'w-full h-full rounded-xl scale-transition transform': true, 'scale-95': hover}" src="frontend/images/card.webp" alt="">
+                        </div>
+                        <div class="py-5 lg:-skew-x-12 lg:-translate-x-16 bg-transition" :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                            <div class="lg:translate-x-10 lg:skew-x-12 px-5 lg:px-0">
+                                <p class="xl:text-2xl text-lg font-bold xl:pb-10 pb-5">WEB <br> CREATIVE</p>
+                                <p class="text-sm font-light text-gray-400 pb-5">
+                                    Webメディアサイト戦略、デザイン、CMS設計、運用体制の構築、アクセス解析、データ分析、インフラ設計など、メディアサイトの制作に必要なサービスを総合的にご支援します。
+                                </p>
+                                <div class="flex justify-end">
+                                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mb-10">
+                <a class="" href="#">
+                    <div class="sm:flex shadow-xl rounded-xl gap-7 sm:pr-5 bg-transition" x-data="{ hover: false }" @mouseover="hover = true" @mouseout="hover = false"  :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                        <div>
+                            <img :class="{'w-full h-full rounded-xl scale-transition transform': true, 'scale-95': hover}" src="frontend/images/card.webp" alt="">
+                        </div>
+                        <div class="py-5 lg:-skew-x-12 lg:-translate-x-16 bg-transition" :class="{'bg-white': !hover, 'bg-hover-color': hover}">
+                            <div class="lg:translate-x-10 lg:skew-x-12 px-5 lg:px-0">
+                                <p class="xl:text-2xl text-lg font-bold xl:pb-10 pb-5">WEB <br> CREATIVE</p>
+                                <p class="text-sm font-light text-gray-400 pb-5">
+                                    Webメディアサイト戦略、デザイン、CMS設計、運用体制の構築、アクセス解析、データ分析、インフラ設計など、メディアサイトの制作に必要なサービスを総合的にご支援します。
+                                </p>
+                                <div class="flex justify-end">
+                                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+      </div>
+
       <div class="relative bg-gray-900 rounded-tr-[100px] rounded-br-[100px]">
         <div class="absolute bottom-0 h-80 w-full xl:inset-0 xl:h-full">
           <div class="h-full w-full xl:grid xl:grid-cols-2">
@@ -184,17 +197,17 @@
                 <span class="block text-2xl font-bold text-white">8K+</span>
                 <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.</span>
               </p>
-      
+
               <p>
                 <span class="block text-2xl font-bold text-white">25K+</span>
                 <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.</span>
               </p>
-      
+
               <p>
                 <span class="block text-2xl font-bold text-white">98%</span>
                 <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.</span>
               </p>
-      
+
               <p>
                 <span class="block text-2xl font-bold text-white">12M+</span>
                 <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.</span>
@@ -203,70 +216,93 @@
           </div>
         </div>
       </div>
-      
-
-    <div class="block lg:hidden">
-        <div class="bg-[#070815] text-white justify-between px-10 py-16 gap-10 items-center">
-            <div class="pb-10">
-                <div class="w-[17rem] h-[17rem] flex items-center justify-center border-4 rounded-full border-green-400 mx-auto">
-                    <img class="rounded-full w-[15rem] h-[15rem]" src="/frontend/images/header.jpg" alt="">
-                </div>
-            </div>
-            <div class=" text-center">
-                <p class="pb-5 text-2xl font-bold">Nosotros somos</p>
-                <p class="pb-2 text-5xl font-bold">Agrada<span class="text-green-400">Web</span></p>
-                <div class="flex items-center justify-center pb-5">
-                    <hr class="w-5 border-green-300"><p class="text-2xl font-bold">Agencia de diseño web</p>
-                </div>
-                <div class="text-xl text-gray-400 pb-16 mx-auto">
-                    <p class="pb-5">We're an award-winning, forward thinking, boutique digital & creative in Edmonton, Canada.</p>
-                    <p>Our strategists, designers and coders work with clients from all over the world to build successful</p>
-                </div>
-
-                <div class="flex items-center gap-10 justify-center">
-                    <div class="flex items-center gap-2">
-                        <div class="bg-green-400 rounded-lg py-2">
-                            <svg class="w-7 h-7 text-black" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-                            </svg>
-                        </div>
-                        <button
-                        class="border-b border-green-400 text-green-400 text-sm font-semibold transition-colors duration-500 ease-in-out hover:text-green-700 hover:border-green-700"
-                        x-data="colorAnimation()"
-                        x-on:mouseenter="changeColor"
-                        x-on:mouseleave="resetColor"
-                        :style="'color: ' + textColor + '; border-bottom-color: ' + borderColor + ';'"
-                        >
-                            CONTACTANOS
-                        </button>
-                    </div>
-
-                    <div>
-                        <button class=" px-5 py-2 rounded-lg bg-green-400 text-black text-sm font-semibold">VER MÁS</button>
-                    </div>
-                </div>
-            </div>
-
-            <script>
-                function colorAnimation() {
-                  return {
-                    textColor: 'text-green-400',
-                    borderColor: 'border-green-400',
-                    changeColor() {
-                      this.textColor = 'text-green-700';
-                      this.borderColor = 'border-green-700';
-                    },
-                    resetColor() {
-                      this.textColor = 'text-green-400';
-                      this.borderColor = 'border-green-400';
-                    },
-                  };
-                }
-              </script>
-        </div>
-    </div>
 
     @include('web.index.partials.hero1')
-    
+
+
+
+    <div class="bg-white pb-36">
+        <div class="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
+          <p class="text-center text-lg font-semibold text-gray-600">Trusted by over 5 very average small businesses</p>
+          <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+              <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation">
+            </div>
+            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+              <img class="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+            </div>
+            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+              <img class="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+            </div>
+            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+              <img class="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel">
+            </div>
+            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+              <img class="max-h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+            </div>
+            <div class="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+              <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="container px-6 max-w-7xl  mx-auto">
+        <div style="position: relative;" class="px-5 py-5 rounded-lg">
+
+            <div class="xl:pb-20 pb-10">
+                <p class="xl:text-4xl lg:text-2xl text-xl font-bold pb-5">
+                    Why choose Andersen for Web Portal Development
+                </p>
+                <p class="xl:text-lg text-sm font-medium pb-2 border-b-2 border-gray-500">
+                    Andersen focuses on the most effective way of solving your business problems.
+                    The priority of Web Portal Development is the commercial success of the created portals and web applications,
+                    and the ways to achieve this are by designing thoughtful and attractive interfaces, fast and reliable operation
+                    of the software, as well as resistance to loads combined with high performance.
+                </p>
+            </div>
+
+            <div class="grid xl:grid-cols-2 grid-cols-1 xl:gap-10">
+                <div class="xl:pb-10 pb-5">
+                    <p class="text-lg font-semibold">
+                        Custom-designed and developed portals
+                    </p>
+                    <div class="border-t-2 border-gray-500 w-40"></div>
+                    <p class="text-sm pt-5 font-normal">
+                        Enjoy pure and optimized code and unique and responsive design solutions for your target audience. Andersen's team is fully engaged in your business and creates portals that help your company grow.
+                    </p>
+                </div>
+
+                <div class="xl:pb-10 pb-5">
+                    <p class="text-lg font-semibold">
+                        Custom-designed and developed portals
+                    </p>
+                    <div class="border-t-2 border-gray-500 w-40"></div>
+                    <p class="text-sm pt-5 font-normal">
+                        Enjoy pure and optimized code and unique and responsive design solutions for your target audience. Andersen's team is fully engaged in your business and creates portals that help your company grow.
+                    </p>
+                </div>
+
+                <div class="xl:pb-10 pb-5">
+                    <p class="text-lg font-semibold">
+                        Custom-designed and developed portals
+                    </p>
+                    <div class="border-t-2 border-gray-500 w-40"></div>
+                    <p class="text-sm pt-5 font-normal">
+                        Enjoy pure and optimized code and unique and responsive design solutions for your target audience. Andersen's team is fully engaged in your business and creates portals that help your company grow.
+                    </p>
+                </div>
+
+                <div class="xl:pb-10 pb-5">
+                    <p class="text-lg font-semibold">
+                        Custom-designed and developed portals
+                    </p>
+                    <div class="border-t-2 border-gray-500 w-40"></div>
+                    <p class="text-sm pt-5 font-normal">
+                        Enjoy pure and optimized code and unique and responsive design solutions for your target audience. Andersen's team is fully engaged in your business and creates portals that help your company grow.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </section>
 
 </x-guest-layout>
