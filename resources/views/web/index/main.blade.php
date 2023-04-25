@@ -12,10 +12,25 @@
         .scale-transition {
             transition: transform 0.3s ease-in-out;
         }
+
+        .ocultar-barra::-webkit-media-controls {
+        display: none !important;
+        }
+
+        .ocultar-barra::-webkit-media-controls-enclosure {
+        display: none !important;
+        }
+
+        .ocultar-barra::-webkit-media-controls-panel {
+        display: none !important;
+        }
     </style>
 
     <div class="bg-gray-800 text-white">
-        sdfsdf
+        <video class=" min-h-0" autoplay muted loop>
+            <source src="{{ asset('frontend/images/video12.mp4') }}" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video HTML5.
+        </video>
     </div>
 
     <div class="relative isolate bg-white">
@@ -306,3 +321,5 @@
       </section>
 
 </x-guest-layout>
+
+

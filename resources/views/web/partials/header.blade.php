@@ -1,5 +1,5 @@
 <section class="relative mx-auto z-50">
-    <header class="bg-white pb-10">
+    <header class=" pb-10 absolute w-full">
         <div class="container flex items-center justify-between border-b border-gray-700 py-3">
             <div class="flex items-center">
                 <div x-data="{ dropdownOpen: false }">
@@ -246,7 +246,7 @@
                 <div x-data="{ dropdownOpen: false }">
                     <div class="relative px-2 py-2">
                         <a href="#"
-                            class="flex items-center hover:text-gray-500 text-black font-semibold transition-colors duration-300"
+                            class="flex items-center hover:text-gray-500 text-white font-semibold transition-colors duration-300"
                             @click="() => { setTimeout(() => { dropdownOpen = true }, 200) }"
                             @click="() => { dropdownOpen = false }">
                             Hosting
@@ -312,7 +312,7 @@
                 <div x-data="{ dropdownOpen: false }">
                     <div class="relative px-2 py-2">
                         <a href="#"
-                            class="flex items-center hover:text-gray-500 text-black font-semibold transition-colors duration-300"
+                            class="flex items-center hover:text-gray-500 text-white font-semibold transition-colors duration-300"
                             @click="() => { setTimeout(() => { dropdownOpen = true }, 200) }"
                             @click="() => { dropdownOpen = false }">
                             Dominios
@@ -347,7 +347,7 @@
                 <div x-data="{ dropdownOpen: false }">
                     <div class="relative px-2 py-2">
                         <a href="#"
-                            class="flex items-center hover:text-gray-500 text-black font-semibold transition-colors duration-300"
+                            class="flex items-center hover:text-gray-500 text-white font-semibold transition-colors duration-300"
                             @click="() => { setTimeout(() => { dropdownOpen = true }, 200) }"
                             @click="() => { dropdownOpen = false }">
                             Servidores
@@ -384,7 +384,7 @@
                 <div x-data="{ dropdownOpen: false }">
                     <div class="relative px-2 py-2">
                         <a href="#"
-                            class="flex items-center hover:text-gray-500 text-black font-semibold transition-colors duration-300"
+                            class="flex items-center hover:text-gray-500 text-white font-semibold transition-colors duration-300"
                             @click="() => { setTimeout(() => { dropdownOpen = true }, 200) }"
                             @click="() => { dropdownOpen = false }">
                             Nosotros
@@ -424,7 +424,7 @@
                     </div>
                 </div>
                 <a href="#"
-                    class="px-2 py-2 hover:text-gray-500 text-black font-semibold transition-colors duration-300"
+                    class="px-2 py-2 hover:text-gray-500 text-white font-semibold transition-colors duration-300"
                     @mouseenter="() => { setTimeout(() => { hover = true }, 200) }"
                     @mouseleave="() => { hover = false }">
                     Más Servicios
